@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Egor\Desktop\PROECT\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="13152e12a9ceff462cee1428328c383ab7d6c236">
+        <dex dex="C:\Users\Egor\Desktop\PROECT\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes-2d0bc3d760081718182b2743226f91d328dee2b6.jar" />
+    </item>
+
+</items>

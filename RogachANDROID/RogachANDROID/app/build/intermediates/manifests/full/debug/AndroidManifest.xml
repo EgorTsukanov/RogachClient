@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.loginandregistration"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="info.androidhive.rogach.config.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/iconrogach"
+        android:label="ROGACH"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.androidhive.rogach.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.androidhive.rogach.activity.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="info.androidhive.rogach.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="info.androidhive.rogach.activity.NewsActivity"
+            android:label="News" />
+        <activity
+            android:name="info.androidhive.rogach.activity.NavigationBar"
+            android:label="@string/title_activity_navigation_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="info.androidhive.rogach.activity.ShareActivity" />
+    </application>
+
+</manifest>
